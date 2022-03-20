@@ -30,7 +30,13 @@ export default {
 
   modules: ['@nuxt/content'],
 
-  content: {},
+  content: {
+    markdown: {
+      remarkPlugins: [
+        ['remark-wiki-link', { hrefTemplate: (permalink) => `/${permalink}` }],
+      ],
+    },
+  },
 
   build: {},
 }

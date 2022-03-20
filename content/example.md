@@ -15,6 +15,10 @@ description: Example description of page
 
 ###### h6 Heading
 
+## wiki links
+
+You can link to local pages by using double brackets: [[hello]]
+
 ## Emphasis
 
 **This is bold text**

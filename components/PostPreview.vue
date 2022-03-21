@@ -9,12 +9,7 @@
 
 <script lang="ts">
 import Vue, { PropType } from 'vue'
-
-interface Post {
-  title: string
-  slug: string
-  description: string
-}
+import { Post } from '~/types/index'
 
 export default Vue.extend({
   props: {
